@@ -1,0 +1,93 @@
+# Framework: Candy & Edmonds — Exploratory, Generative, and Evaluative Creativity
+# Reference: Candy, L. and Edmonds, E. (2018) 'Practice-based research in the creative arts'
+
+name: candy-edmonds
+display: "Candy & Edmonds — Practice-Based Research"
+version: 1.0.0
+description: >
+  Three modes of creative practice research: exploratory (what if?),
+  generative (making something new), and evaluative (testing and refining).
+  Strong emphasis on the relationship between creative practice and research contribution.
+
+reference: "Candy, L. and Edmonds, E. (2018) 'Practice-based research in the creative arts: Foundations and futures from the front line', *Leonardo*, 51(1), pp. 63-69."
+
+dimensions:
+  - id: exploratory
+    label: "Exploratory creativity"
+    description: "Open-ended investigation — what if? what emerges?"
+    prompts:
+      - "What are you exploring without knowing the outcome?"
+      - "What's the 'what if' question driving this?"
+      - "What territory are you mapping that hasn't been mapped?"
+
+  - id: generative
+    label: "Generative creativity"
+    description: "Making something new — the creative act itself"
+    prompts:
+      - "What are you generating that didn't exist before?"
+      - "What's the novel contribution of this making?"
+      - "How does the act of generation produce new knowledge?"
+
+  - id: evaluative
+    label: "Evaluative creativity"
+    description: "Testing, refining, and assessing what was made"
+    prompts:
+      - "How do you evaluate what you've made?"
+      - "What criteria are appropriate for judging this work?"
+      - "What does the evaluation reveal that making alone didn't?"
+
+spheres:
+  - id: creative_practice
+    label: "Creative practice"
+    description: "The studio, the lab, the rehearsal room"
+    prompts:
+      - "What's the creative practice context?"
+      - "How does the studio environment shape the research?"
+
+  - id: research_contribution
+    label: "Research contribution"
+    description: "What new knowledge does this generate for the field?"
+    prompts:
+      - "What's the research contribution — what does the field gain?"
+      - "How is this contribution evidenced and communicated?"
+
+output_categories:
+  - id: creative_work
+    label: "Creative work"
+    description: "The artwork, design, or creative artefact"
+    prompts:
+      - "What creative work embodies the research?"
+      - "How does the work function as a research output?"
+
+  - id: exegesis
+    label: "Exegesis"
+    description: "Written critical reflection that contextualises the creative work"
+    prompts:
+      - "What exegetical writing frames the creative work?"
+      - "How does the exegesis articulate the research contribution?"
+
+  - id: evidence
+    label: "Evidence"
+    description: "Documentation, data, and records that support the research claims"
+    prompts:
+      - "What evidence supports the research claims?"
+      - "How do you demonstrate that the research is rigorous?"
+
+cycle_steps:
+  - id: explore
+    label: "Explore"
+    description: "Open investigation without predetermined outcome"
+  - id: generate
+    label: "Generate"
+    description: "Make something new"
+  - id: evaluate
+    label: "Evaluate"
+    description: "Test, refine, assess"
+  - id: articulate
+    label: "Articulate"
+    description: "Formulate the research contribution"
+
+conversation_principles:
+  - "Candy & Edmonds distinguish between practice-based (the practice IS the research) and practice-led (the practice LEADS to research)"
+  - "Push on the evaluation question: how do you know it's good research, not just good practice?"
+  - "The exegesis is not a summary — it's a critical framing that the practice alone cannot provide"

@@ -1,0 +1,100 @@
+# Framework: Sullivan — Visual Arts as Research
+# Reference: Sullivan, G. (2010) Art Practice as Research: Inquiry in Visual Arts
+
+name: sullivan
+display: "Sullivan — Art Practice as Research"
+version: 1.0.0
+description: >
+  Art practice as a form of cognitive inquiry. Visual arts generate knowledge
+  through creative and critical processes that are rigorous, systematic, and
+  conceptually rich — not merely expressive or intuitive.
+
+reference: "Sullivan, G. (2010) *Art Practice as Research: Inquiry in the Visual Arts*. 2nd edn. Thousand Oaks, CA: Sage."
+
+dimensions:
+  - id: theoretical
+    label: "Theoretical inquiry"
+    description: "Art practice engages with and generates theory"
+    prompts:
+      - "What theoretical framework does your practice engage?"
+      - "How does the practice generate theory rather than just illustrate it?"
+      - "What concepts emerge from the making?"
+
+  - id: creative_cognition
+    label: "Creative cognition"
+    description: "Art-making as a form of thinking — visual, spatial, material intelligence"
+    prompts:
+      - "What kind of thinking does your practice require?"
+      - "How is the thinking in the practice different from verbal thinking?"
+      - "What does the practice know that propositional language can't capture?"
+
+  - id: critical
+    label: "Critical inquiry"
+    description: "Art practice as critique — questioning assumptions, revealing structures"
+    prompts:
+      - "What assumptions does your practice challenge?"
+      - "What structures or systems does the work critique?"
+      - "How does the practice function as critique, not just expression?"
+
+spheres:
+  - id: studio
+    label: "Studio"
+    description: "The site of making — where creative cognition happens"
+    prompts:
+      - "What happens in the studio that can't happen elsewhere?"
+      - "How does the studio context shape the inquiry?"
+
+  - id: cultural
+    label: "Cultural"
+    description: "The broader cultural context the work engages"
+    prompts:
+      - "What cultural context does this work speak to?"
+      - "How does the work function in the world?"
+
+  - id: disciplinary
+    label: "Disciplinary"
+    description: "The field of art practice and its discourses"
+    prompts:
+      - "What disciplinary conversation does this work enter?"
+      - "How does the work shift the field?"
+
+output_categories:
+  - id: artwork
+    label: "Artwork"
+    description: "The visual, spatial, or material outcome"
+    prompts:
+      - "What artwork embodies the inquiry?"
+      - "How does the artwork function as research?"
+
+  - id: critical_writing
+    label: "Critical writing"
+    description: "Writing that articulates the theoretical and critical dimensions"
+    prompts:
+      - "What critical writing frames the practice?"
+      - "How does the writing engage with the theoretical dimensions?"
+
+  - id: documentation
+    label: "Documentation"
+    description: "Records of process, context, and reception"
+    prompts:
+      - "How do you document the creative cognition?"
+      - "What records capture the critical dimension?"
+
+cycle_steps:
+  - id: make
+    label: "Make"
+    description: "The creative act"
+  - id: reflect
+    label: "Reflect"
+    description: "Critical reflection on the making"
+  - id: theorise
+    label: "Theorise"
+    description: "Articulating the theoretical implications"
+  - id: critique
+    label: "Critique"
+    description: "Situating the work in cultural and disciplinary contexts"
+
+conversation_principles:
+  - "Sullivan insists art practice is cognitive, not just expressive — push on what the practice *thinks*"
+  - "The critical dimension is essential: art practice as cultural critique, not just self-expression"
+  - "Ask: what does this work reveal about the world, not just about the artist?"

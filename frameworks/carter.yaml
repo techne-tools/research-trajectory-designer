@@ -1,0 +1,94 @@
+# Framework: Carter — Material Thinking
+# Reference: Carter, P. (2004) Material Thinking: The Theory and Practice of
+#            Creative Research
+
+name: carter
+display: "Carter — Material Thinking"
+version: 1.0.0
+description: >
+  Creative research as 'material thinking' — a process where ideas emerge through
+  the meeting of maker, material, and environment. The work of art is not the
+  application of theory but a form of thinking in its own right.
+
+reference: "Carter, P. (2004) *Material Thinking: The Theory and Practice of Creative Research*. Melbourne: Melbourne University Press."
+
+dimensions:
+  - id: material_thinking
+    label: "Material thinking"
+    description: "Ideas emerge through the meeting of maker, material, and environment"
+    prompts:
+      - "What ideas emerge through the meeting of you, your material, and your environment?"
+      - "How does the material think with you?"
+      - "What does the environment contribute to the thinking?"
+
+  - id: meeting_place
+    label: "Meeting place"
+    description: "The site where maker, material, and environment converge"
+    prompts:
+      - "Where does the meeting happen — what's the site?"
+      - "What conditions make the meeting productive?"
+      - "What happens when the meeting is disrupted?"
+
+  - id: creative_placemaking
+    label: "Creative placemaking"
+    description: "Research that creates new places and relationships through creative practice"
+    prompts:
+      - "What new places or relationships does this practice create?"
+      - "How does the practice make place rather than just occupy it?"
+      - "What relationships are formed through the making?"
+
+spheres:
+  - id: environment
+    label: "Environment"
+    description: "The physical, social, and cultural environment of the making"
+    prompts:
+      - "What environment shapes this making?"
+      - "How does the environment participate in the thinking?"
+
+  - id: relational
+    label: "Relational"
+    description: "The relationships formed through creative practice"
+    prompts:
+      - "What relationships does this practice form?"
+      - "How do those relationships generate knowledge?"
+
+output_categories:
+  - id: creative_work
+    label: "Creative work"
+    description: "The work that emerges from material thinking"
+    prompts:
+      - "What work emerges from the material thinking?"
+      - "How does the work embody the meeting?"
+
+  - id: reflective_writing
+    label: "Reflective writing"
+    description: "Writing that traces the material thinking process"
+    prompts:
+      - "What writing traces the material thinking?"
+      - "How does the writing capture the meeting?"
+
+  - id: spatial_documentation
+    label: "Spatial documentation"
+    description: "Records of the environment and its role in the making"
+    prompts:
+      - "How do you document the environment's role?"
+      - "What spatial records capture the meeting place?"
+
+cycle_steps:
+  - id: meet
+    label: "Meet"
+    description: "Maker, material, and environment come together"
+  - id: make
+    label: "Make"
+    description: "The work emerges through the meeting"
+  - id: trace
+    label: "Trace"
+    description: "Follow what emerged and how"
+  - id: articulate
+    label: "Articulate"
+    description: "Find form for the material thinking"
+
+conversation_principles:
+  - "Carter's key move: the work is not the application of theory but a form of thinking"
+  - "Push on the environment — what does the space contribute?"
+  - "The meeting place is the site of knowledge generation — describe it concretely"

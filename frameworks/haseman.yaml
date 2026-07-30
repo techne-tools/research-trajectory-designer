@@ -1,0 +1,77 @@
+# Framework: Haseman — Performative Research
+# Reference: Haseman, B. (2006) 'A manifesto for performative research'
+
+name: haseman
+display: "Haseman's Performative Research"
+version: 1.0.0
+description: >
+  Practice-led research where the practice itself is the method and the primary output.
+  Research is expressed in symbolic forms other than words — performance, image, sound.
+
+reference: "Haseman, B. (2006) 'A manifesto for performative research', *Media International Australia*, 118(1), pp. 98-106."
+
+dimensions:
+  - id: performative_method
+    label: "Performative method"
+    description: "The practice IS the research method, not just the object of study"
+    prompts:
+      - "How is the practice itself doing the research?"
+      - "What does the practice know that writing can't capture?"
+      - "What method emerges from the practice rather than being imposed on it?"
+      - "If the practice is the method, how do you know when it's working?"
+
+  - id: symbolic_expression
+    label: "Symbolic expression"
+    description: "Research expressed in non-verbal forms — performance, image, sound, movement"
+    prompts:
+      - "What form of expression carries the primary knowledge claim?"
+      - "Is the research expressed in a symbolic system other than words?"
+      - "What does this form of expression enable that writing forecloses?"
+
+  - id: practitioner_knowledge
+    label: "Practitioner knowledge"
+    description: "Knowledge held by practitioners that is not yet articulated in academic discourse"
+    prompts:
+      - "What do you know as a practitioner that isn't in the literature?"
+      - "What knowledge lives in your hands, your ears, your body?"
+      - "How do you make practitioner knowledge shareable?"
+
+spheres: []
+
+output_categories:
+  - id: performative_output
+    label: "Performative output"
+    description: "The performance, event, or practice that IS the research"
+    prompts:
+      - "What is the performative output — the thing that carries the research?"
+      - "How does this output function as research, not just as art?"
+
+  - id: contextual_writing
+    label: "Contextual writing"
+    description: "Writing that situates the performative output without claiming to contain it"
+    prompts:
+      - "What writing contextualises the practice without trying to replace it?"
+      - "How does the writing point toward the practice rather than summarising it?"
+
+  - id: documentation
+    label: "Documentation"
+    description: "Records that make the performative research accessible to others"
+    prompts:
+      - "How do you document a practice that resists documentation?"
+      - "What form of record does justice to the live event?"
+
+cycle_steps:
+  - id: practice
+    label: "Practice"
+    description: "The performative act — making, performing, doing"
+  - id: reflection
+    label: "Reflection"
+    description: "What emerged through the practice?"
+  - id: articulation
+    label: "Articulation"
+    description: "Finding form for what was discovered"
+
+conversation_principles:
+  - "Haseman's key move: the practice is not the object of research, it IS the research"
+  - "Push on what the practice knows that writing cannot"
+  - "The documentation problem is central — how do you evidence a live event?"

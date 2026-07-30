@@ -1,0 +1,83 @@
+# Framework: Smith & Dean — Iterative Cyclic Web
+# Reference: Smith, H. and Dean, R.T. (eds.) (2009) Practice-led Research,
+#            Research-led Practice in the Creative Arts.
+
+name: smith-dean
+display: "Smith & Dean's Iterative Cyclic Web"
+version: 1.0.0
+description: >
+  Practice-led and research-led processes as mutually informing, non-linear feedback loops.
+  Creative practice generates research questions; scholarly inquiry shapes practice.
+
+reference: "Smith, H. and Dean, R.T. (eds.) (2009) *Practice-led Research, Research-led Practice in the Creative Arts*. Edinburgh: Edinburgh University Press."
+
+dimensions:
+  - id: practice_led
+    label: "Practice-led research"
+    description: "Creative practice generates research questions, insights, and theoretical contributions"
+    prompts:
+      - "What research question emerges from your practice?"
+      - "What does the practice know that writing doesn't?"
+      - "How does making something generate new questions?"
+      - "What happens when you let the practice lead?"
+
+  - id: research_led
+    label: "Research-led practice"
+    description: "Scholarly inquiry informs, shapes, and transforms creative practice"
+    prompts:
+      - "What theory or context could transform your practice?"
+      - "How does reading change what you make?"
+      - "What happens when you let research lead the practice?"
+      - "Where does the scholarly conversation meet your material?"
+
+  - id: feedback_loop
+    label: "Feedback loop"
+    description: "The iterative relationship between practice and research — each feeds the other"
+    prompts:
+      - "Where's the feedback loop between your practice and your research?"
+      - "How does one mode inform the other?"
+      - "What would it look like to cycle faster between making and reading?"
+      - "Is there a blockage in the loop — too much of one mode?"
+
+spheres: []  # Smith & Dean don't use spheres — the plugin adapts
+
+output_categories:
+  - id: creative_output
+    label: "Creative output"
+    description: "Artworks, performances, compositions, designs, installations"
+    prompts:
+      - "What creative output does this branch produce?"
+      - "What form does the practice take?"
+
+  - id: scholarly_output
+    label: "Scholarly output"
+    description: "Papers, chapters, conference presentations, exegesis"
+    prompts:
+      - "What scholarly output frames or contextualises this?"
+      - "Where does the research get articulated?"
+
+  - id: process_documentation
+    label: "Process documentation"
+    description: "Journals, sketches, prototypes, recordings that capture the iterative process"
+    prompts:
+      - "How do you document the iterative process?"
+      - "What evidence captures the feedback loop?"
+
+cycle_steps:
+  - id: practice
+    label: "Practice"
+    description: "Making, performing, experimenting — the creative act"
+  - id: reflection
+    label: "Reflection"
+    description: "What emerged? What surprised? What changed?"
+  - id: research
+    label: "Research"
+    description: "Reading, contextualising, theorising"
+  - id: synthesis
+    label: "Synthesis"
+    description: "Integrating practice and research into new understanding"
+
+conversation_principles:
+  - "The web is non-linear — practice can lead to research, research to practice, or both simultaneously"
+  - "Ask about the direction of the feedback loop: which mode is driving right now?"
+  - "Useful for curriculum design: ensuring creative practice and academic rigour enrich each other"

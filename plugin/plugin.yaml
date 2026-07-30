@@ -1,0 +1,10 @@
+name: research-trajectory-designer-v2
+version: "2.0.0"
+description: "Framework-registry PaR trajectory mapping — supports Nelson, Haseman, Bolt, Smith & Dean, Candy & Edmonds, Sullivan, Borgdorff, Biggs & Büchler, Carter, Gray, Biggs, and custom frameworks"
+author: "Dr Chris Wenn, University of the Arts Sharjah"
+provides_tools:
+  - trajectory_update
+  - trajectory_add_note
+provides_hooks: []
+commands:
+  - trajectory

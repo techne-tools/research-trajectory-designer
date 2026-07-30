@@ -1,0 +1,76 @@
+# Framework: Generic Template — Define Your Own
+# Use this as a starting point for custom PaR frameworks.
+# Fill in the fields below — anything left empty is gracefully skipped.
+
+name: generic
+display: "Custom Framework"
+version: 1.0.0
+description: >
+  A template for defining your own PaR framework. Replace this description
+  with a one-paragraph summary of your framework's approach.
+
+reference: "Your reference here — full citation in Harvard style."
+
+# Dimensions are the core analytical categories of your framework.
+# Each dimension has prompts the conversation can draw on.
+# Minimum: 1 dimension. Maximum: 6 dimensions.
+dimensions:
+  - id: dimension_one
+    label: "Your first dimension"
+    description: "What this dimension captures"
+    prompts:
+      - "What question does this dimension raise for your practice?"
+      - "How does this dimension shape what you're doing?"
+      - "What would it look like to push further into this dimension?"
+
+  - id: dimension_two
+    label: "Your second dimension"
+    description: "What this dimension captures"
+    prompts:
+      - "What question does this dimension raise?"
+      - "How does this dimension connect to the first?"
+
+# Spheres are the contexts or domains the research operates in.
+# Optional — omit or set to [] if your framework doesn't use spheres.
+spheres:
+  - id: sphere_one
+    label: "Your sphere"
+    description: "What context this sphere represents"
+    prompts:
+      - "What's the context for this sphere?"
+      - "How does this sphere shape the research?"
+
+# Output categories are the forms your research outputs take.
+# Each branch of the trajectory gets mapped to these categories.
+# Minimum: 1 category. Maximum: 5 categories.
+output_categories:
+  - id: output_one
+    label: "Your output type"
+    description: "What form this output takes"
+    prompts:
+      - "What output does this branch produce?"
+      - "How does this output carry the research?"
+
+  - id: output_two
+    label: "Your second output type"
+    description: "What form this output takes"
+    prompts:
+      - "What output does this branch produce?"
+      - "How does this output relate to the first?"
+
+# Cycle steps are the phases of the research process.
+# Optional — defaults to: doing, reflecting, reading, articulating
+cycle_steps:
+  - id: step_one
+    label: "Your step"
+    description: "What happens in this phase"
+  - id: step_two
+    label: "Your second step"
+    description: "What happens in this phase"
+
+# Conversation principles guide how the framework is used in dialogue.
+# These are suggestions, not rules.
+conversation_principles:
+  - "Describe how this framework should be used in conversation"
+  - "What's the key move this framework makes?"
+  - "What should the conversation push on?"

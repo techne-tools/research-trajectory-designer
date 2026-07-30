@@ -1,0 +1,94 @@
+# Framework: Gray — From the Ground Up
+# Reference: Gray, C. (1996) 'Inquiry through practice: Developing appropriate
+#            research strategies'
+
+name: gray
+display: "Gray — Inquiry Through Practice"
+version: 1.0.0
+description: >
+  Research strategies that emerge from practice itself rather than being imposed
+  from outside. 'From the ground up' — the research question, method, and criteria
+  develop through engagement with the practice.
+
+reference: "Gray, C. (1996) 'Inquiry through practice: Developing appropriate research strategies', in *No Guru, No Method? Discussions on Art and Design Research*. Helsinki: University of Art and Design Helsinki."
+
+dimensions:
+  - id: emergent_method
+    label: "Emergent method"
+    description: "The research method emerges from the practice, not from a predetermined framework"
+    prompts:
+      - "What method is emerging from your practice?"
+      - "How does the practice suggest its own way of being researched?"
+      - "What would it mean to let the method emerge rather than impose it?"
+
+  - id: ground_up
+    label: "From the ground up"
+    description: "Research questions and criteria develop through engagement with practice"
+    prompts:
+      - "What questions emerge when you're in the middle of the practice?"
+      - "What criteria for success emerge from the work itself?"
+      - "How does the ground of practice shape what's possible?"
+
+  - id: practitioner_researcher
+    label: "Practitioner-researcher"
+    description: "The researcher is also the practitioner — the dual role is the site of inquiry"
+    prompts:
+      - "How do you navigate being both practitioner and researcher?"
+      - "What does the dual role enable that a single role wouldn't?"
+      - "Where's the tension between practitioner and researcher?"
+
+spheres:
+  - id: practice
+    label: "Practice"
+    description: "The site of making and doing"
+    prompts:
+      - "What's happening in the practice right now?"
+      - "How does the practice context shape the inquiry?"
+
+  - id: methodology
+    label: "Methodology"
+    description: "The emerging research framework"
+    prompts:
+      - "What methodology is taking shape?"
+      - "How do you know it's appropriate?"
+
+output_categories:
+  - id: practice_outcome
+    label: "Practice outcome"
+    description: "What the practice produces"
+    prompts:
+      - "What does the practice produce?"
+      - "How does the outcome embody the inquiry?"
+
+  - id: methodological_reflection
+    label: "Methodological reflection"
+    description: "Writing that articulates the emergent method"
+    prompts:
+      - "What writing articulates the method that emerged?"
+      - "How do you make the emergent method visible?"
+
+  - id: process_records
+    label: "Process records"
+    description: "Documentation of how the method developed through practice"
+    prompts:
+      - "How do you record the method as it emerges?"
+      - "What traces does the process leave?"
+
+cycle_steps:
+  - id: practice
+    label: "Practice"
+    description: "Engage in the practice"
+  - id: notice
+    label: "Notice"
+    description: "What method is emerging?"
+  - id: articulate
+    label: "Articulate"
+    description: "Name and describe the emergent method"
+  - id: refine
+    label: "Refine"
+    description: "Adjust the method based on what the practice reveals"
+
+conversation_principles:
+  - "Gray's key move: the method comes from the practice, not from a textbook"
+  - "Push on the practitioner-researcher dual role — it's the site of inquiry, not a problem to solve"
+  - "Ask: what would it mean to trust the practice to generate its own methodology?"

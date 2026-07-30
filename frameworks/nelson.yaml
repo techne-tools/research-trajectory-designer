@@ -1,0 +1,110 @@
+# Framework: Robin Nelson — Multi-Mode Knowledge
+# Reference: Nelson, R. (2013) Practice as Research in the Arts.
+#            Nelson, R. (2022) 'Practice-as-research and the problem of knowledge'.
+
+name: nelson
+display: "Robin Nelson's Multi-Mode Knowledge"
+version: 1.0.0
+description: >
+  Know-how, know-what, know-that across personal/professional/academic spheres.
+  The foundational PaR framework for articulating how practice generates knowledge.
+
+reference: "Nelson, R. (2013) *Practice as Research in the Arts: Principles, Protocols, Pedagogies, Resistances*. Basingstoke: Palgrave Macmillan."
+
+dimensions:
+  - id: know_how
+    label: "Know-how"
+    description: "Tacit, embodied, procedural knowledge — the knowledge *in* the doing"
+    prompts:
+      - "What craft or technique do you already have that's relevant here?"
+      - "What would you need to learn or develop to pursue this?"
+      - "Is there a material, a tool, or a space you already work with that this connects to?"
+      - "What does your body know that you haven't articulated yet?"
+
+  - id: know_what
+    label: "Know-what"
+    description: "Emergent, situated knowledge — insights that arise *through* practice"
+    prompts:
+      - "What do you suspect you might discover? What's the hunch?"
+      - "If this inquiry 'worked', what would you have found out?"
+      - "What would count as an insight here?"
+      - "What can you only find out by making?"
+
+  - id: know_that
+    label: "Know-that"
+    description: "Propositional, declarative knowledge — the knowledge *about* the practice"
+    prompts:
+      - "What theory or context is already in the room? What are you already reading?"
+      - "Who else is working in this territory? What's the lineage?"
+      - "What's the gap you see — what hasn't been done or said?"
+      - "What theoretical framework would help you see what you're doing?"
+
+spheres:
+  - id: personal
+    label: "Personal"
+    description: "Your own journey, curiosities, intuitions, embodied history"
+    prompts:
+      - "Where does this sit for you — personal fascination, professional development, or academic contribution?"
+      - "What's your relationship to this material or question?"
+      - "What would it look like to push this into a different sphere?"
+
+  - id: professional
+    label: "Professional"
+    description: "The field, your peers, the craft community, industry context"
+    prompts:
+      - "What's the professional context for this work?"
+      - "Who in your field would care about this?"
+      - "What would your peers say about this direction?"
+
+  - id: academic
+    label: "Academic"
+    description: "The scholarly discourse, theoretical frameworks, institutional expectations"
+    prompts:
+      - "What scholarly discourse does this engage?"
+      - "Is there a tension between what you want to do and what the institution expects?"
+      - "Where does this sit in the academic conversation?"
+
+output_categories:
+  - id: product
+    label: "Product"
+    description: "The practice itself — performance, installation, composition, code, workshop, score"
+    prompts:
+      - "If this branch produced a *product* — what would it be?"
+      - "What form does the practice take?"
+      - "What's the thing you make?"
+
+  - id: documentation
+    label: "Documentation"
+    description: "The durable record — video, audio, notation, photographs, process journal, objects"
+    prompts:
+      - "What's the *documentation* that would capture what's significant about this?"
+      - "How do you make the practice durable?"
+      - "What evidence does this branch generate?"
+
+  - id: complementary_writing
+    label: "Complementary writing"
+    description: "The critical framing — conference paper, journal article, chapter, blog, exegesis"
+    prompts:
+      - "What *complementary writing* would frame this?"
+      - "How do the writing and practice speak to each other?"
+      - "Which comes first — the practice or the writing?"
+
+cycle_steps:
+  - id: doing
+    label: "Doing"
+    description: "The practice itself — making, performing, experimenting"
+  - id: reflecting
+    label: "Reflecting"
+    description: "Critical reflection on what emerged from the doing"
+  - id: reading
+    label: "Reading"
+    description: "Engaging with theory, context, and the field"
+  - id: articulating
+    label: "Articulating"
+    description: "Formulating insights into shareable form"
+
+conversation_principles:
+  - "The framework is a lens, not a checklist — never ask 'what's your know-how?' directly"
+  - "Name the method when you use it: 'Nelson would call that a know-what insight'"
+  - "Push for specificity: not 'I'm interested in space and sound' but concrete descriptions"
+  - "Hold the frame lightly — follow tangents, the phases are a map not a script"

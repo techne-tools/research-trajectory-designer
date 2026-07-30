@@ -1,0 +1,94 @@
+# Framework: Biggs — The Role of the Artefact
+# Reference: Biggs, M. (2004) 'Learning from experience: Approaches to the
+#            experiential component of practice-based research'
+
+name: biggs
+display: "Biggs — The Role of the Artefact"
+version: 1.0.0
+description: >
+  The artefact (creative work) in practice-based research has a specific epistemic
+  function — it embodies knowledge that cannot be fully captured in propositional
+  form. The relationship between artefact and text is complementary, not hierarchical.
+
+reference: "Biggs, M. (2004) 'Learning from experience: Approaches to the experiential component of practice-based research', in *Forskning, Reflektion, Utveckling*. Stockholm: Vetenskapsrådet."
+
+dimensions:
+  - id: artefact_knowledge
+    label: "Artefact knowledge"
+    description: "Knowledge embodied in the artefact that cannot be fully captured in words"
+    prompts:
+      - "What does the artefact know that writing can't say?"
+      - "What knowledge is in the work itself?"
+      - "How does the artefact function as a knowledge-bearing object?"
+
+  - id: complementarity
+    label: "Complementarity"
+    description: "Artefact and text are complementary — neither is subordinate to the other"
+    prompts:
+      - "How do the artefact and text complement each other?"
+      - "What does each form enable that the other forecloses?"
+      - "Is the relationship truly complementary, or is one subordinate?"
+
+  - id: experiential_knowledge
+    label: "Experiential knowledge"
+    description: "Knowledge gained through direct experience of making and engaging"
+    prompts:
+      - "What knowledge comes from the experience of making?"
+      - "How do you learn from the experience that you couldn't learn from reading?"
+      - "What role does experience play in the research?"
+
+spheres:
+  - id: artefact
+    label: "Artefact"
+    description: "The thing made — its material, form, and presence"
+    prompts:
+      - "What is the artefact as a material object?"
+      - "How does its materiality matter?"
+
+  - id: text
+    label: "Text"
+    description: "The written articulation — exegesis, paper, commentary"
+    prompts:
+      - "What does the text contribute that the artefact cannot?"
+      - "How does the text frame the artefact?"
+
+output_categories:
+  - id: artefact
+    label: "Artefact"
+    description: "The creative work as knowledge-bearing object"
+    prompts:
+      - "What artefact embodies the research?"
+      - "How does the artefact function epistemically?"
+
+  - id: textual_articulation
+    label: "Textual articulation"
+    description: "Writing that complements the artefact without replacing it"
+    prompts:
+      - "What writing complements the artefact?"
+      - "How does the text point toward the artefact?"
+
+  - id: experiential_record
+    label: "Experiential record"
+    description: "Documentation of the experience of making and engaging"
+    prompts:
+      - "How do you record the experiential dimension?"
+      - "What traces of experience are preserved?"
+
+cycle_steps:
+  - id: make
+    label: "Make"
+    description: "Create the artefact"
+  - id: experience
+    label: "Experience"
+    description: "Engage with what emerged"
+  - id: articulate
+    label: "Articulate"
+    description: "Find textual form for the knowledge"
+  - id: relate
+    label: "Relate"
+    description: "Examine the relationship between artefact and text"
+
+conversation_principles:
+  - "Biggs's key move: the artefact is not an illustration of the research — it IS the research"
+  - "Push on complementarity: is the text really complementary, or is it doing all the epistemic work?"
+  - "The experiential dimension is often the hardest to capture — ask how it's preserved"

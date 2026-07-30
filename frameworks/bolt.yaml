@@ -1,0 +1,90 @@
+# Framework: Bolt — The Magic is in the Making
+# Reference: Bolt, B. (2007) 'The magic is in the making: Practice as research in the arts'
+
+name: bolt
+display: "Bolt's 'The Magic is in the Making'"
+version: 1.0.0
+description: >
+  Knowledge emerges through the handling of materials. The making process itself
+  is a site of knowing — material thinking as a mode of research.
+
+reference: "Bolt, B. (2007) 'The magic is in the making: Practice as research in the arts', *Journal of Media Practice*, 8(1), pp. 57-64."
+
+dimensions:
+  - id: material_thinking
+    label: "Material thinking"
+    description: "Knowledge that emerges through handling materials — the hand thinks"
+    prompts:
+      - "What does the material teach you as you work with it?"
+      - "How does handling the material generate knowledge?"
+      - "What does your hand know that your head doesn't yet?"
+      - "What happens when the material resists?"
+
+  - id: handling
+    label: "Handling"
+    description: "The process of working with materials — the site of knowledge generation"
+    prompts:
+      - "What's the handling process — how do you work with the material?"
+      - "What emerges through the handling that you couldn't plan?"
+      - "How does the handling change you as a practitioner?"
+
+  - id: magic
+    label: "The magic"
+    description: "The emergent, surprising, unplannable quality of making"
+    prompts:
+      - "What's the 'magic' in this making — the part you can't plan?"
+      - "What surprised you in the process?"
+      - "What emerged that you didn't intend?"
+
+spheres:
+  - id: material
+    label: "Material"
+    description: "The physical stuff — what you work with and through"
+    prompts:
+      - "What's the material relationship here?"
+      - "How does the material shape what's possible?"
+
+  - id: practitioner
+    label: "Practitioner"
+    description: "Your embodied relationship to the material"
+    prompts:
+      - "How does this material change you as a practitioner?"
+      - "What's your history with this material?"
+
+output_categories:
+  - id: artwork
+    label: "Artwork"
+    description: "The thing made — the material outcome"
+    prompts:
+      - "What's the thing that gets made?"
+      - "How does the artwork embody the research?"
+
+  - id: process_documentation
+    label: "Process documentation"
+    description: "Records of the handling — sketches, tests, failures, iterations"
+    prompts:
+      - "How do you document the handling process?"
+      - "What records capture the material thinking?"
+
+  - id: critical_reflection
+    label: "Critical reflection"
+    description: "Writing that articulates what the handling revealed"
+    prompts:
+      - "What writing articulates what the material taught you?"
+      - "How do you translate material thinking into shareable knowledge?"
+
+cycle_steps:
+  - id: handling
+    label: "Handling"
+    description: "Working with the material"
+  - id: noticing
+    label: "Noticing"
+    description: "What emerged through the handling?"
+  - id: articulating
+    label: "Articulating"
+    description: "Finding language for material knowledge"
+
+conversation_principles:
+  - "Bolt's key move: the hand thinks — knowledge is in the handling, not just the reflection"
+  - "Push for material specificity: what material, what resistance, what surprise?"
+  - "The 'magic' is not mystical — it's the emergent knowledge that can't be planned"

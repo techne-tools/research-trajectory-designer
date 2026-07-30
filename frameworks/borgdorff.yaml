@@ -1,0 +1,101 @@
+# Framework: Borgdorff — The Conflict of the Faculties
+# Reference: Borgdorff, H. (2012) The Conflict of the Faculties: Perspectives on
+#            Artistic Research and Academia
+
+name: borgdorff
+display: "Borgdorff — The Conflict of the Faculties"
+version: 1.0.0
+description: >
+  Artistic research as a third epistemological space between art and academia.
+  The 'conflict of the faculties' is productive — the tension between artistic
+  and academic knowledge is where new understanding emerges.
+
+reference: "Borgdorff, H. (2012) *The Conflict of the Faculties: Perspectives on Artistic Research and Academia*. Leiden: Leiden University Press."
+
+dimensions:
+  - id: art_academy_tension
+    label: "Art-academy tension"
+    description: "The productive friction between artistic and academic knowledge regimes"
+    prompts:
+      - "Where's the tension between your artistic practice and academic expectations?"
+      - "How is this tension productive rather than obstructive?"
+      - "What does each regime enable and foreclose?"
+
+  - id: third_space
+    label: "Third space"
+    description: "Artistic research as a space between art and academia — neither fully one nor the other"
+    prompts:
+      - "Where does your work sit between art and academia?"
+      - "What's the 'third space' your practice occupies?"
+      - "How do you navigate being neither fully artist nor fully academic?"
+
+  - id: autonomy
+    label: "Autonomy of artistic research"
+    description: "Artistic research has its own criteria, methods, and forms of validation"
+    prompts:
+      - "What are the criteria for good artistic research in your field?"
+      - "How does artistic research validate itself without borrowing from science?"
+      - "What does it mean for artistic research to be autonomous?"
+
+spheres:
+  - id: artistic
+    label: "Artistic"
+    description: "The art world — galleries, venues, festivals, peers"
+    prompts:
+      - "How does the art world receive this work?"
+      - "What are the artistic criteria for success?"
+
+  - id: academic
+    label: "Academic"
+    description: "The university — peer review, research assessment, institutional expectations"
+    prompts:
+      - "How does the academy receive this work?"
+      - "What are the academic criteria for success?"
+
+  - id: institutional
+    label: "Institutional"
+    description: "The structures that govern both — funding, policy, governance"
+    prompts:
+      - "What institutional structures shape this work?"
+      - "How do funding and policy affect the research?"
+
+output_categories:
+  - id: artistic_output
+    label: "Artistic output"
+    description: "The work as art — exhibitions, performances, publications"
+    prompts:
+      - "What artistic output does this produce?"
+      - "How does the work function in the art world?"
+
+  - id: research_output
+    label: "Research output"
+    description: "The work as research — papers, exegeses, conference presentations"
+    prompts:
+      - "What research output articulates the contribution?"
+      - "How does the work function in the academy?"
+
+  - id: reflective_text
+    label: "Reflective text"
+    description: "Writing that navigates the space between art and research"
+    prompts:
+      - "What writing navigates the space between art and research?"
+      - "How does the reflective text hold the tension?"
+
+cycle_steps:
+  - id: practice
+    label: "Practice"
+    description: "The artistic work"
+  - id: reflection
+    label: "Reflection"
+    description: "What emerged through the practice?"
+  - id: positioning
+    label: "Positioning"
+    description: "Where does this sit in the art-academy landscape?"
+  - id: articulation
+    label: "Articulation"
+    description: "Formulating the contribution in both registers"
+
+conversation_principles:
+  - "Borgdorff's key move: the conflict is productive, not something to resolve"
+  - "Push on the institutional dimension — funding, policy, governance shape what's possible"
+  - "Ask: what does it mean for artistic research to be autonomous from both art and science?"

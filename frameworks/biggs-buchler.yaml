@@ -1,0 +1,93 @@
+# Framework: Biggs & Büchler — Rigour in Practice-Based Research
+# Reference: Biggs, M. and Büchler, D. (2007) 'Rigour and practice-based research'
+
+name: biggs-buchler
+display: "Biggs & Büchler — Rigour in Practice-Based Research"
+version: 1.0.0
+description: >
+  Practice-based research must meet the same standards of rigour as any other
+  research paradigm — but the criteria for rigour are different. Emphasis on
+  transparency, communicability, and peer review within the practice community.
+
+reference: "Biggs, M. and Büchler, D. (2007) 'Rigour and practice-based research', *Design Issues*, 23(3), pp. 62-72."
+
+dimensions:
+  - id: rigour
+    label: "Rigour"
+    description: "Practice-based research has its own standards of rigour — transparency, communicability, peer review"
+    prompts:
+      - "What does rigour mean in your practice context?"
+      - "How do you ensure the research is rigorous without borrowing criteria from science?"
+      - "What would count as a rigorous outcome?"
+
+  - id: transparency
+    label: "Transparency"
+    description: "The research process must be visible and auditable"
+    prompts:
+      - "How do you make the research process visible to others?"
+      - "What would someone need to see to understand your process?"
+      - "Where's the transparency in your methodology?"
+
+  - id: communicability
+    label: "Communicability"
+    description: "Research findings must be communicable to the relevant community"
+    prompts:
+      - "Who is the relevant community for this research?"
+      - "How do you communicate findings to that community?"
+      - "What form of communication does the community recognise as valid?"
+
+spheres:
+  - id: practice_community
+    label: "Practice community"
+    description: "The community of practitioners who share the practice"
+    prompts:
+      - "What does the practice community expect from research?"
+      - "How does the community validate knowledge?"
+
+  - id: research_community
+    label: "Research community"
+    description: "The broader academic research community"
+    prompts:
+      - "How does the research community receive practice-based work?"
+      - "What translation is needed between communities?"
+
+output_categories:
+  - id: practice_output
+    label: "Practice output"
+    description: "The artefact or performance that embodies the research"
+    prompts:
+      - "What practice output embodies the research?"
+      - "How does the output function as evidence?"
+
+  - id: research_exegesis
+    label: "Research exegesis"
+    description: "Written articulation of the research questions, methods, and findings"
+    prompts:
+      - "What exegesis articulates the research?"
+      - "How does the exegesis demonstrate rigour?"
+
+  - id: evidence_base
+    label: "Evidence base"
+    description: "The documentation and records that support the research claims"
+    prompts:
+      - "What evidence supports the research claims?"
+      - "How is the evidence base made accessible?"
+
+cycle_steps:
+  - id: propose
+    label: "Propose"
+    description: "Articulate the research question and methodology"
+  - id: practice
+    label: "Practice"
+    description: "Carry out the practice-based research"
+  - id: document
+    label: "Document"
+    description: "Capture the process and outcomes"
+  - id: communicate
+    label: "Communicate"
+    description: "Share findings with the relevant community"
+
+conversation_principles:
+  - "Biggs & Büchler insist on rigour — push on what rigour means in the specific practice context"
+  - "The key question: how does this research demonstrate its quality to its community?"
+  - "Transparency is not the same as replicability — what does transparency mean in practice?"
