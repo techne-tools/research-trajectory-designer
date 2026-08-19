@@ -23,6 +23,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import yaml
 from datetime import datetime
 from pathlib import Path
@@ -128,7 +129,7 @@ def _format_framework_help(framework: dict) -> str:
 def _get_trajectory_path(name: str) -> str:
     """Get the path for a trajectory state file."""
     os.makedirs(TRAJECTORY_DIR, exist_ok=True)
-    safe_name = name.lower().replace(" ", "-").replace("/", "-")
+    safe_name = re.sub(r"[^a-z0-9-]", "-", name.lower()).strip("-")
     return os.path.join(TRAJECTORY_DIR, f".{safe_name}-state.json")
 
 
@@ -710,17 +711,20 @@ def register(ctx) -> None:
         toolset="research-trajectory-designer-v2",
         schema={
             "type": "object",
-            "properties": {
-                "name": {
-                    "type": "string",
-                    "description": "The trajectory name",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string",
+                        "description": "The trajectory name",
+                    },
+                    "updates": {
+                        "type": "string",
+                        "description": "JSON string with fields to update. Fields: seed, phase, branches, through_line, notes (appended)",
+                    },
                 },
-                "updates": {
-                    "type": "string",
-                    "description": "JSON string with fields to update. Fields: seed, phase, branches, through_line, notes (appended)",
-                },
+                "required": ["name", "updates"],
             },
-            "required": ["name", "updates"],
         },
         handler=_handle_trajectory_update,
         description="Update the state of a research trajectory during a conversation.",
@@ -731,17 +735,20 @@ def register(ctx) -> None:
         toolset="research-trajectory-designer-v2",
         schema={
             "type": "object",
-            "properties": {
-                "name": {
-                    "type": "string",
-                    "description": "The trajectory name",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string",
+                        "description": "The trajectory name",
+                    },
+                    "note": {
+                        "type": "string",
+                        "description": "The note text to append",
+                    },
                 },
-                "note": {
-                    "type": "string",
-                    "description": "The note text to append",
-                },
+                "required": ["name", "note"],
             },
-            "required": ["name", "note"],
         },
         handler=_handle_trajectory_add_note,
         description="Add a note to the current trajectory conversation.",
